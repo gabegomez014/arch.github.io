@@ -1,0 +1,33 @@
+{
+    "logo": {
+        "class": "logo",
+        "src": "../photos/archAngel.jpg",
+        "alt": "Arch logo",
+        "height": "200",
+        "width": "400"
+    },
+    
+    "message": {
+        "class": "message",
+        "header": "Welcome. My name is Gabriel Gomez, and this is going to be my porfolio site. It is currently under construction. Come back at a later time for an update.",
+        "paragraph": "Status - Currently working on the home page."
+    },
+    
+    "nav": {
+        "home": {
+            "name": "Arch",
+            "link": "/"
+        },
+        
+        "about": {
+            "name": "About Me",
+            "link": "/about"
+        },
+        
+        "projects": {
+            "name": "My Projects",
+            "link": "/projects"
+        }
+    },
+    "required": ["home", "about", "projects"]
+}
