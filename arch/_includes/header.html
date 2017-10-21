@@ -1,16 +1,18 @@
 <div class="header">
     <header>
+        <!--
         {% assign logo = site.data.header["logo"] %}
         <div class="{{ logo.class }}">
             <img src="{{ logo.src }}" alt="{{ logo.alt }}" height="{{ logo.height }}" width="{{ logo.width }}">
         </div>
-        
+        -->
         {% assign message = site.data.header["message"] %}
         <div class="{{ message.class }}">
             <h1>{{ message.header }}</h1>
             <p>{{ message.paragraph }}</p>
         </div>
         
+        <!--
         {% assign nav = site.data.header.nav %}
         <div class="nav">
             <nav>
@@ -27,5 +29,6 @@
                 {% endfor %}
             </nav>
         </div>
+        -->
     </header>
 </div>

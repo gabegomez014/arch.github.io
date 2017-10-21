@@ -1,4 +1,19 @@
 body {
-    background-color: #0c0c0c
+    background-color: #0c0c0c;
+    background-image: url(/photos/fractalAngel.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat
 }
 
+h1 {
+    color: #39f;
+    font: "Arial Black";
+    font-family: "Arial", "Times New Roman"
+}
+
+p {
+    color: #39f;
+    font: "Arial Black";
+    font-family: "Arial", "Times New Roman";
+    font-size: 150%
+}
