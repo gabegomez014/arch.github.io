@@ -4,20 +4,27 @@ body {
     background-color: rgba(0,0,0,0.8)
 }
 
-.wrapper {
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex
+}
+
+.imgWrapper {
     height: 100vh;
     width: 100vw;
 }
 
-.header {
+.backgroundImg {
     background-image: url(/photos/fractalAngel.jpg);
     background-repeat: no-repeat;
-    background-position: top;
     height: inherit;
     width: inherit;
     overflow: hidden;
+    flex: 1;
     line-height: inherit;
-    display: inline-flex
+    z-index: -2
 }
 
 .trans {
@@ -26,25 +33,41 @@ body {
     background-position: center;
     height: 100vh;
     width: 100vw;
-    flex: 1;
     overflow: hidden;
-    line-height: inherit;
+    z-index: -1
 }
 
-img {
-    overflow: hidden;
-    padding-left: 50vw
+header {
+    background-color: #06c;
+    position: absolute;
+    height: 12.5vh;
+    width: inherit;
+    display: flex;
+}
+
+.headerTrans {
+    background-color: rgba(0,0,0,0.5);
+    height: inherit;
+    width: inherit;
 }
 
 h1 {
-    border-top: 1px solid orange;
-    float: left;
-    align-self: flex-start;
-    color: aqua;
+    text-align: left;
+    top: 15vh; 
+    color: aqua
+}
+
+img {
+    position: absolute
+    right: 45vw;
+    top: -1.5vh;
+    overflow: hidden;
+
 }
 
 nav {
-    float: right;
+    position: absolute;
+    right: 1vw;
 }
 
 
