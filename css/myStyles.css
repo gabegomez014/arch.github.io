@@ -1,14 +1,39 @@
-#overlap {
-    position: relative;
-    top: -10.6rem;
-    left: 32%
+header.masthead {
+    background-color: #2B3D49
 }
 
-#triangle1 {
-    position: absolute
-    
+div.intro-text {
+    color: #B1BFC9
 }
 
-#triangle2 {
-    position: absolute
+hr.star-light {
+    border-color: #7AADD2
+}
+
+hr.star-light:after {
+    color: #7AADD2;
+    background-color: #2B3D49
+}
+
+body {
+    background-color: #B1BFC9
+}
+
+#portfolio h2 {
+    color: ghostwhite
+}
+
+hr.star-primary:after {
+    background-color: #1B68A8
+}
+
+#mainNav {
+    background-color: rgba(122,173,210,0.4)
+}
+
+#mainNav a {
+    color: #B1BFC9
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #B1BFC9
 }
