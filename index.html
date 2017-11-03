@@ -30,13 +30,16 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Arch</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="title">Arch</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#updates">Site Updates</a>  
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
@@ -55,11 +58,20 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
+        <img src="img/MARTIN%20DAVALOS%20TAKE%201.png">
           <span class="name">Welcome to Arch -<br> A portfolio site for Gabriel Gomez</span>
           <hr class="star-light">
           <span class="skills">Student - Software Developer - Web Developer - Mobile Apps</span>
         </div>
       </div>
+        
+    <!-- Site Updates -->
+    <section id = "updates">
+        <div class="container">
+            <h2>Current Website Update:</h2>
+            <h4>At the moment, I'm making the home page</h4>
+        </div>  
+    </section>
     </header>
 
     <!-- Portfolio Grid Section -->
@@ -139,17 +151,18 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p>My name is Gabriel Gomez. Most people call me Gabe. I grew up in New York City, and I currently attend Bucknell University studying Computer Science and Engineering. </p>
+            <p>My name is Gabriel Gomez. Most people call me Gabe. I grew up in New York City, and I currently attend Bucknell University studying Computer Science and Engineering. I created this website as my porfolio page to show off any and all pieces I've done/been apart of. </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p>Check out my projects page if that's what you want to see. If you want to know a bit more about me, check out my about page. Above all else, I hope you have a beautiful day in case no one has told you that so far. </p>
           </div>
-          <div class="col-lg-8 mx-auto text-center">
+          <!--<div class="col-lg-8 mx-auto text-center">
             <a href="#" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
               Download Theme
             </a>
           </div>
+            -->
         </div>
       </div>
     </section>
@@ -166,30 +179,26 @@
             <form name="sentMessage" id="contactForm" novalidate>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
+                  <label class="required">Name*</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name*" required data-validation-required-message="Please enter your name.">
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
+                  <label>Email Address*</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email Address*" required data-validation-required-message="Please enter your email address.">
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
+                  <label>Phone Number (optional)</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number (optional)">
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
+                  <label>Message*</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message*" required data-validation-required-message="Please enter a message."></textarea>
                 </div>
               </div>
               <br>
@@ -208,54 +217,62 @@
       <div class="footer-above">
         <div class="container">
           <div class="row">
-            <div class="footer-col col-md-4">
+            <div class="footer-col col-md-6">
               <h3>Location</h3>
-              <p>3481 Melrose Place
-                <br>Beverly Hills, CA 90210</p>
+              <p>During College: <br>Bucknell West Dr.
+                Lewisburg, PA 17837<br>
+                <br>During Summer/Winter breaks:
+                <br>200 Cedar Ln. Teaneck, NJ 07666
+                <br><br> or <br>
+                <br> 9608 NW 7th Cir. Apt. 1325 
+                Fort Lauderdale, FL 33324
+                </p>
             </div>
-            <div class="footer-col col-md-4">
-              <h3>Around the Web</h3>
+            <div class="footer-col col-md-6">
+              <h3>My Social Media Sites</h3>
               <ul class="list-inline">
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
+                  <a class="btn-social btn-outline" href="https://www.facebook.com/profile.php?id=100003985550806" target = "_blank">
                     <i class="fa fa-fw fa-facebook"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
+                <!--<li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="" target="_blank">
                     <i class="fa fa-fw fa-google-plus"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                -->
+                <!--<li class="list-inline-item">
                   <a class="btn-social btn-outline" href="#">
                     <i class="fa fa-fw fa-twitter"></i>
                   </a>
                 </li>
+                -->
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
+                  <a class="btn-social btn-outline" href="https://www.linkedin.com/in/gabriel-gomez-58807310b/" target="_blank">
                     <i class="fa fa-fw fa-linkedin"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
-                    <i class="fa fa-fw fa-dribbble"></i>
+               <li class="list-inline-item">
+                  <a class="btn-social btn-outline" href="https://github.com/gabegomez014" target="_blank">
+                    <i class="fa fa-fw fa-github"></i>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="footer-col col-md-4">
-              <h3>About Freelancer</h3>
-              <p>Freelance is a free to use, open source Bootstrap theme created by
-                <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+           <!-- <div class="footer-col col-md-4">
+              <h3>About Gabe</h3>
+              <p>I'm just a guy who is trying to build himself up and create projects while going through college. I have a care for others that I use to motivate my actions on a day to </p>
             </div>
+            -->
           </div>
         </div>
       </div>
       <div class="footer-below">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Your Website 2017
+            <div class="col-lg-12" id = "copy">
+              Copyright &copy; Arch 2017
             </div>
           </div>
         </div>
