@@ -263,3 +263,50 @@ span#image {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+/* Martin's logo */
+#leftTriangle {
+    fill:none;
+    stroke:white;
+    stroke-miterlimit:10;
+    stroke-linejoin:miter;
+    stroke-width:4px;
+    stroke-dasharray:1500 1500;
+    animation: animate 3s ease-in-out;
+}
+
+#rightTriangle {
+    fill:none;
+    stroke:white;
+    stroke-linejoin:miter;
+    stroke-miterlimit:10;
+    stroke-width:4px; 
+    stroke-dasharray:1500 1500;
+    animation: animate 3s ease-in-out;
+}
+
+@keyframes animate {
+    from {stroke-dashoffset: 1500}
+    to {stroke-dashoffset: 0}
+}
+
+#name {
+    fill:white;
+    stroke:white;
+    stroke-miterlimit:10;
+    stroke-width:0.25px;
+    opacity: 0;     
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    
+}
+
+#master:hover #name{
+    opacity: 1
+}
+
+/* Martin's logo */
+
+#portfolioModal1 {
+    background-color: #161f29
+}
