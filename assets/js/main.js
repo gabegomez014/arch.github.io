@@ -4,7 +4,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
+
 (function($) {
+    $(document.ready(function(){
+    $('a[href="title"]').on("click", function(event) {
+        var target = $(this.getAttribute('href'));
+    
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+})
 
 	skel
 		.breakpoints({
@@ -93,4 +109,4 @@
 
 	});
 
-})(jQuery);
+})(jQuery)
