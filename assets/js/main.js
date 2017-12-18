@@ -5,23 +5,21 @@
 */
 
 /*jslint browser: true*/
-/*global $, jQuery, alert*/
+/*global $, jQuery*/
+
+function move() {
+    var title = document.getElementById("intro-wrapper");
+    var top = zenscroll.getTopOf(title) - 100;
+    zenscroll.toY(top);
+    
+}
+
+
+var scroll = document.getElementById("scroll");
+scroll.addEventListener("click", move);
 
 
 (function($) {
-    $(document.ready(function(){
-    $('a[href="title"]').on("click", function(event) {
-        var target = $(this.getAttribute('href'));
-    
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 1000);
-        }
-    });
-})
-
 	skel
 		.breakpoints({
 			desktop: '(min-width: 737px)',
