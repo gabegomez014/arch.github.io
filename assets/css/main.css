@@ -1515,6 +1515,7 @@ html {
 			text-align: center;
 		}
 
+
 /* Icons */
 
 	.icon {
@@ -1751,6 +1752,106 @@ html {
 			text-decoration: none;
 		}
 
+/*
+#intro > #columns > .column{
+    float: left;
+    height: 100%;
+    width: 33.33%;
+    padding: 20%
+}
+
+#intro > #columns {
+    display: table;
+    content: "";
+    clear: both;
+    column-gap: 100%
+}
+*/
+
+/* Who I am */
+#columns {
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+.column h3 {
+    position: relative;
+    height: 100%;
+    line-height: 100%;
+    bottom: 2.5em;
+}
+
+.column p {
+    position: relative;
+    left: 8%;
+    bottom: 2em;
+    line-height: 170%
+}
+
+#column1 h3::before {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background: #587D95;
+    border-radius: 100%;
+    border: 3px solid white; 
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.3em;
+    bottom: 2em;
+    left: 15.6%
+}
+
+#column2 h3::before {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background: #587D95;
+    border-radius: 100%;
+    border: 3px solid white; 
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.3em;
+    bottom: 2em;
+    left: 18%
+}
+
+#column3 h3::before {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background: #587D95;
+    border-radius: 100%;
+    border: 3px solid white; 
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.3em;
+    bottom: 2em;
+    left: 21.3%
+}
+
+#column1 {
+    float: left;
+    width: 33%;
+    line-height: 100%
+}
+
+#column2 {
+    display: inline-block;
+    width: 33%
+}
+
+#column3 {
+    float: right;
+    width: 33%
+}
+
+
+
 /* Highlights */
 
 	#highlights .highlight {
@@ -1984,7 +2085,7 @@ html {
 			}
 
 			#intro-wrapper {
-				padding-bottom: 8em;
+				padding-bottom: 15em;
 			}
 
 		/* Header */
