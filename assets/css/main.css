@@ -1383,7 +1383,7 @@ html {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #2B3D49;
 			color: #fff;
 		}
 
@@ -1392,7 +1392,7 @@ html {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #585E62;
 			}
 
 			input[type="button"].style1:active,
@@ -1538,6 +1538,39 @@ html {
 			display: none;
 		}
 
+    .fa-linkedin::before {
+        position: relative;
+        border-radius: 120px;
+        border: solid 3px #858F95;
+        height: 40px;
+        width: 40px;
+        line-height: 1.5em;
+        text-align: center;
+        right: .5em;
+    }
+
+    .fa-facebook::before {
+        position: relative;
+        border-radius: 120px;
+        border: solid 3px #858F95;
+        height: 40px;
+        width: 40px;
+        line-height: 1.6em;
+        text-align: center;
+        left: .45em
+    }
+
+    .fa-github-alt::before {
+        position: relative;
+        border-radius: 120px;
+        border: solid 3px #858F95;
+        height: 40px;
+        width: 40px;
+        line-height: 1.5em;
+        text-align: center;
+        right: .5em;
+    }
+
 /* Wrappers */
 
 	.wrapper {
@@ -1604,16 +1637,16 @@ html {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #f3f3f3;
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #f3f3f3;
 				color: #484d55;
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
+				border: solid 6px #587D95;
 			}
 
 /*
@@ -1635,7 +1668,7 @@ html {
 		}
 
 	#footer-wrapper {
-		background: #282b34 url("images/overlay.png");
+		background: #587D95;
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 	}
@@ -1654,7 +1687,7 @@ html {
 		#footer-wrapper form input[type="password"],
 		#footer-wrapper form select,
 		#footer-wrapper form textarea {
-			background: #ccc;
+			background: white;
 			box-shadow: none;
 		}
 
@@ -1701,7 +1734,7 @@ html {
 			}
 
 		#footer-wrapper .title {
-			background: #282b34 url("images/overlay.png");
+			background: #587D95;
 			color: #eee;
 		}
 
@@ -1860,6 +1893,21 @@ html {
 		#highlights .highlight h3 {
 			color: #e97770;
 		}
+
+    #projectsHeader {
+        text-align: center;
+        position: relative;
+        bottom: 3em
+    }
+
+    h4#projectsP {
+        color: grey;
+        font-size: 95%
+    }
+
+    #examples {
+        color: #2B3D49
+    }
 
 /* Copyright */
 
