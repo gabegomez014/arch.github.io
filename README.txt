@@ -1,4 +1,10 @@
-Being modified by Gabriel Gomez for his portfolio website
+Being modified by Gabriel Gomez for his portfolio website. Currently a work in progress.
+
+Special thanks to HTML5 UP for providing me with the groundwork for creating my portfolio website.
+
+Special thanks to pixabay (pixabay.com) for providing the  stock image of the wolf.
+
+---------------------------------------------------------
 
 Escape Velocity by HTML5 UP
 html5up.net | @ajlkn
@@ -24,10 +30,6 @@ PS: Not sure how to get that contact form working? Give formspree.io a try (it's
 
 
 Credits:
-
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
